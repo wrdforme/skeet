@@ -1,3 +1,13 @@
+--[[
+       _            
+  __ _| | ___  _ __ __ _ 
+ / _` | |/ _ \| '__/ _` |
+| (_| | | (_) | | | (_| |
+ \__,_|_|\___/|_|  \__,_|  
+
+skeet, a free and open source Counter Blox script created by sjors
+
+--]]
 repeat wait() until game:IsLoaded()
 
 if game:GetService("CoreGui"):FindFirstChild("sjorlib") then return end
@@ -1188,5 +1198,3 @@ while wait(5) do
         updateSkybox()
     end
 end
-
-alora
